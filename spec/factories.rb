@@ -8,6 +8,10 @@ FactoryGirl.define do
     factory :admin do
     	admin true
     end
+end
     
-  end
+    factory :micropost do
+    	content "I got that summertime, summertime sadness"
+    	user
+    end
 end
